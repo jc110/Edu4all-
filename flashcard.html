@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- ^ the viewport meta tag is to make your webpage responsive according to screen size -->
+	<title>Edu4all!</title>
+	<!-- ^ your webpage's title -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<!-- ^ where we link our CSS file to our webpage -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://res.cloudinary.com/next-inventor/image/upload/v1602994745/MathBlog_fyhkll.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Sat Math-</h1> 
+      <p>In 2015, Deep Gorge County had 192 miles of bicycle paths. In 2016 it embarked on a building project to add 3 miles of new paths each year. What number would you grid to show how many total miles of bicycle paths the county will have in 2025 if it continues to build at the stated rate and none of the paths go out of service?</p> 
+      <p>The correct answer is:
+      (blank) 2 2 2 or 2 2 2 (blank)</p>
+     
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://res.cloudinary.com/next-inventor/image/upload/v1604289755/Email_u26w98.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Reading </h1> 
+      <pIf a person speaks disparagingly to others, can you assume that he/she makes other people feel more self-confident?</p> 
+      <p>The correct answer is:no</p>
+<p>Explanation:
+If a person speaks disparagingly to others, it means that they talk down to them, which would leave a person feeling badly about him/herself, the opposite of self-confident.</p>
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
